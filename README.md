@@ -40,6 +40,9 @@
 
 - if you change files in project. This change will appear in the project's git repository, but we need to update that change in the project's git repository.
 - to show This change  appeared in the project's git repository => write **git status**
-- To update changes in Repostory => using **git add .** - **git commit -m "message update"**
+- To update changes in Repostory => using **git add .** - **git commit -m "message update"**  
 
-  
+
+<div align=center>
+<img src="https://github.com/Ammar-nasr13/files/blob/master/images/unnamed.png" height=350>
+</div>
