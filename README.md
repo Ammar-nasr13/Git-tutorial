@@ -11,7 +11,7 @@
 - 🤝 **Teamwork** Each programmer works on their own version, and then you merge the changes together.
 - 🌐 **Distributed** Every device has a full copy of the project, and you don't always need an internet connection.
 
-## How create New Repostory in Git ?
+## How create New Repostory in Git and store project in it ?
 
 - Open Terminal or Cmd.
 - You must make sure that you are inside the project folder.
@@ -31,5 +31,15 @@
 - Untracked files.
 - Files that have been modified but not added. <br>
 
-- **git add** => git add filename or git add . => 
-It is used to add new files or changes to the staging area. These files are then ready to be saved and released.
+- **git add** => **git add file name or git add or git add folder name** . => It is used to add new files or changes to the index file (staging area). These files are then ready to be saved and released.
+
+- **git commit -m "message"** => Used to commit changes from a Staging Area to the Git database (inside the .git/objects folder).
+- Each commit represents a snapshot of the project at a particular moment in time. => version
+
+## How to update Repostory (project files) in Git ?
+
+- if you change files in project. This change will appear in the project's git repository, but we need to update that change in the project's git repository.
+- to show This change  appeared in the project's git repository => write **git status**
+- To update changes in Repostory => using **git add .** - **git commit -m "message update"**
+
+  
