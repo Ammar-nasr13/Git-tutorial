@@ -15,7 +15,7 @@
 
 - Open Terminal or Cmd.
 - You must make sure that you are inside the project folder.
-- git init => Initialized empty Git repository in path ..... => write in cmd dir /a:h to show hidden .git folder. <br>
+- **git init** => Initialized empty Git repository in path ..... => write in cmd dir /a:h to show hidden .git folder. <br>
 
  ➡️ **.git**
 
@@ -25,11 +25,11 @@
   1- All data related to the repository. <br> <br>
   2- Tracking changes, rolling back to older versions, and working on different branches.
 
-- git status => Used to know the current status of the project (repository).
+- **git status** => Used to know the current status of the project (repository).
 - Current branch.
 - Files in Staging Area (ready to commit).
 - Untracked files.
 - Files that have been modified but not added. <br>
 
-- git add => git add filename or git add . => 
+- **git add** => git add filename or git add . => 
 It is used to add new files or changes to the staging area. These files are then ready to be saved and released.
