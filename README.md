@@ -245,4 +245,14 @@ git status --ignored
 
 # التحقق من قواعد gitignore النشطة
 git check-ignore -v <filename>
-``` 
+```
+
+➡️ **Convert Tracked Files to .gitignore**
+
+- To convert Tracked Files to .gitignore using command ⤵️
+
+```comand
+git rm --cached filename
+
+git rm --staged filename
+```
