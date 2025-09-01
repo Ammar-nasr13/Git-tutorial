@@ -11,6 +11,14 @@
 - 🤝 **Teamwork** Each programmer works on their own version, and then you merge the changes together.
 - 🌐 **Distributed** Every device has a full copy of the project, and you don't always need an internet connection.
 
+
+## How to Install git in your PC ?
+
+- click here to [Download Git](https://git-scm.com/downloads)
+- choose your operating system to downloading ( Windows - macOS - Linux/Unix)
+- install Git after downloading.
+- **Note** => click here to [Download Git Book](https://github.com/progit/progit2/releases/download/2.1.448/progit.pdf)
+
 ## How create New Repostory in Git and store project in it ?
 
 - Open Terminal or Cmd.
@@ -29,7 +37,8 @@
 - Current branch.
 - Files in Staging Area (ready to commit).
 - Untracked files.
-- Files that have been modified but not added. <br>
+- Files that have been modified but not added.
+- **Note** => **git status -s** => M or A هذا الامر يقوم باظهار الملف وبجانبه حرف يدل علي حاله الملف هل هو   <br>
 
 - **git add** => **git add file name or git add or git add folder name** . => It is used to add new files or changes to the index file (staging area). These files are then ready to be saved and released.
 
@@ -46,3 +55,10 @@
 <div align=center>
 <img src="https://github.com/Ammar-nasr13/files/blob/master/images/unnamed.png" height=350>
 </div>
+
+## Repostory History in Git .
+
+- After you git commit  => this commad save all changes in Repostory History.
+- Every commit you make is saved in a separate version.
+- Each commit (version) is saved as a contract next to each other.
+  
