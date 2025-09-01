@@ -71,10 +71,59 @@
 
 ```command
 git log
-git log --oneline
 ```
 - this command show => ( commit id - message - date of change - author )
 - To exit command write => q
+
+- git log -p or git show => مع التغيرات  commits عرض سجل الـ   
+
+```command
+git log -p  or git show
+
+git log -p filename  // specific file
+
+git show commit_hash
+```
+- git log --oneline => عرض ملخص للسجل    
+
+```command
+git log --oneline
+```
+
+- **git show**
+ ```commands
+# عرض آخر commit
+
+git show
+
+# عرض commit محدد
+
+git show commit_hash
+
+
+# عرض التغيرات في ملف ضمن commit محدد
+
+git show commit_hash:filename
+```
+
+- **git blame**
+
+```comands
+
+# عرض من عدل كل سطر في الملف
+
+git blame filename
+
+# مع تفاصيل الـ commit
+
+git blame -c filename
+
+
+# لعرض سطور محددة (مثلاً من 10 إلى 20)
+
+git blame -L 10,20 filename
+
+```
 
 ## Delete commands in git ?
 
@@ -136,3 +185,5 @@ git diff commit_hash
 ```command
 git diff commit1_hash commit2_hash
 ```
+ 
+## .gitignore file in any project.
