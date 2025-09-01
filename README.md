@@ -68,5 +68,71 @@
 </div>
 
 - To show **Repostory History** using **git log**
+
+```command
+git log
+git log --oneline
+```
 - this command show => ( commit id - message - date of change - author )
 - To exit command write => q
+
+## Delete commands in git ?
+
+- It deletes files permanently.
+
+``` command
+git rm filename
+```
+
+- It deletes the folder permanently.
+
+``` command
+git rm -r folder_name/
+```
+
+- Delete the file from the git repository but it is not deleted permanently and becomes *UnTracked* => move file from *Staged* to *UnTracked*
+
+``` command
+git rm --cached filename
+```
+
+- Deletes all files ending with *.log*.
+
+ ``` command
+  git rm *.log
+```
+
+## Compare changes in Git ?
+
+- Using **git diff** => It displays the changes and compares these changes.
+
+-  **git diff** => modifted ومعمول لها  staging اي انها ليست في مرحلة tracked هو يقوم بتوضيح التغيرات ومقارنة الملفات الموجودة في
+
+``` command
+git diff
+```
+
+- git diff --staged => staging مقارنة التغيرات في الملفات المضافة لل
+
+```command
+git diff --staged
+git diff --cached
+ ```
+
+- git diff filename => مقارنة تغيرات ملف معين
+
+```command
+git diff filename
+```
+
+- git diff commit_hash => مقارنه التغيرات في اصدار معين
+
+```command
+git diff commit_hash
+```
+
+- git diff commit1_hash commit2_hash => مقارنة التغيرات بين اصدارين
+
+```command
+git diff commit1_hash commit2_hash
+```
