@@ -255,4 +255,9 @@ git check-ignore -v <filename>
 git rm --cached filename
 
 git rm --staged filename
+
+write filename in .gitignore
 ```
+<br>
+
+- **Note** => To put any files or directories in .gitignore must theses UnTracked.
