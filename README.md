@@ -53,7 +53,7 @@
 
 
 <div align=center>
-<img src="https://github.com/Ammar-nasr13/files/blob/master/images/unnamed.png" height=350>
+ <img src="https://github.com/Ammar-nasr13/files/blob/master/images/image2.png" height=350>
 </div>
 
 ## Repostory History in Git .
@@ -61,8 +61,12 @@
 - After you git commit  => this commad save all changes in Repository History.
 - Every commit you make is saved in a separate version.
 - Each commit (version) is saved as a contract next to each other.
-  
-![image](https://github.com/Ammar-nasr13/files/blob/master/images/image1.png) 
 
+  
+<div align=center>
+ <img src="https://github.com/Ammar-nasr13/files/blob/master/images/image1.png" width=600 height=300>
+</div>
 
 - To show **Repostory History** using **git log**
+- this command show => ( commit id - message - date of change - author )
+- To exit command write => q
