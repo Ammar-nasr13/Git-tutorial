@@ -42,8 +42,40 @@
 
 - **git add** => **git add file name or git add or git add folder name** . => It is used to add new files or changes to the index file (staging area). These files are then ready to be saved and released.
 
+ ```commands
+# إضافة ملف معين
+
+git add filename.txt
+
+# إضافة جميع الملفات المعدلة
+
+git add .
+
+# إضافة جميع الملفات بما فيها المحذوفة
+
+git add -A
+
+# إضافة ملفات interactively
+
+git add -p
+```
+
 - **git commit -m "message"** => Used to commit changes from a Staging Area to the Git database (inside the .git/objects folder).
 - Each commit represents a snapshot of the project at a particular moment in time. => version
+
+```commands
+#  مع رسالة commit
+
+git commit -m "وصف التغييرات"
+
+# إضافة الملفات المعدلة و commit مباشرة
+
+git commit -am "وصف التغييرات"
+
+# تعديل آخر commit
+
+git commit --amend
+```
 
 ## How to update Repostory (project files) in Git ?
 
@@ -81,6 +113,8 @@ git log
 git log -p  or git show
 
 git log -p filename  // specific file
+
+git log --graph
 
 git show commit_hash
 ```
@@ -187,3 +221,28 @@ git diff commit1_hash commit2_hash
 ```
  
 ## .gitignore file in any project.
+
+-  **.gitignore** =>  يتجاهلها وميتتبعهاش في اي عملية تحدث في المشروع git هو عبارة عن ملف يتم وضع بداخلة جميع الملفات والمجلدات اللي انا عايز
+-  **.gitignore** => API الهدف من ذلك هو حماية الملفات التي تمثل بيانات هامة حماية قواعد البيانات حماية <br>
+
+➡️ **How to create this file and Rules Used in it**
+
+- Create directory => Name of directory must be *.gitignore*
+- Put all files and directories Which is ignored in *.gitignore* <br>
+
+➡️ **Rules Used in it**
+
+- عشان نعمل تعليق داخل هذا الملف بنكتب # وهو نستخدمه لوضع عنوان اعلي الملف او المجلد.
+- عشان اخلي ملف او مجلد في حالة تجاهل من  قبل git قم باضافة اسم الملف او المجلد .
+- استخدام الرمز * ثم ياتي بعده امتداد مثلا log. هذا يعني انه سوف يتجاهل كل الملفات التي تنتهي بهذا الامتداد .
+- علامة التعجب قبل الملفات والمجلدات معناها لا تقم بتجاهل هذه الملفات او المجلدات وهذه شئ استثنائي .<br>
+
+- **Note** ⤵️
+
+```comands
+# التحقق من الملفات المتجاهلة
+git status --ignored
+
+# التحقق من قواعد gitignore النشطة
+git check-ignore -v <filename>
+``` 
