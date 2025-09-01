@@ -49,7 +49,7 @@
 
 - if you change files in project. This change will appear in the project's git repository, but we need to update that change in the project's git repository.
 - to show This change  appeared in the project's git repository => write **git status**
-- To update changes in Repostory => using **git add .** - **git commit -m "message update"**  
+- To update changes in Repository => using **git add .** - **git commit -m "message update"**  
 
 
 <div align=center>
@@ -58,7 +58,11 @@
 
 ## Repostory History in Git .
 
-- After you git commit  => this commad save all changes in Repostory History.
+- After you git commit  => this commad save all changes in Repository History.
 - Every commit you make is saved in a separate version.
 - Each commit (version) is saved as a contract next to each other.
   
+![image](https://github.com/Ammar-nasr13/files/blob/master/images/image1.png) 
+
+
+- To show **Repostory History** using **git log**
