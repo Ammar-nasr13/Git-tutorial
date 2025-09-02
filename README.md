@@ -21,6 +21,11 @@
 
 ## How create New Repostory in Git and store project in it ?
 
+- **Note** => To show all command in git write.
+```commands
+git --help
+```
+
 - Open Terminal or Cmd.
 - You must make sure that you are inside the project folder.
 - **git init** => Initialized empty Git repository in path ..... => write in cmd dir /a:h to show hidden .git folder. <br>
@@ -30,6 +35,7 @@
 - *Note* => Any git repository you create contains a .git file.
 - An empty Git repository in which the project is stored later.
 - It contains several files responsible for: <br>
+
   1- All data related to the repository. <br> <br>
   2- Tracking changes, rolling back to older versions, and working on different branches.
 
